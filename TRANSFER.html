@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Transferring Funds$</title>
+
+<style>
+body {
+padding:40px;
+  border-top : 500px;
+  text-align: left;
+  background-color: white;
+  color: Black;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+table{
+  width:80%;
+  font-weight:bold;
+}
+</style>
+</head>
+<body>
+<header style="text-align: center; font-size:40px;">Transfer Funds Here!</header> <br/>
+
+<form method="post" action="TRANSFER.jsp" onsubmit="myFunction()" STYLE="TEXT-ALIGN:CENTER;">
+<label>Recipient:</label>
+<input type="text" Name="Recipient" required>
+<label>Amount:</label>
+<input type="NUMBER" Name="Amount" required>
+<input type="submit" value="submit">
+<script>
+function myFunction(){
+alert("Fund is transferred!!!!")
+window.location.href="TRANSFER.jsp";
+}
+</script>
+</form>
+
+</body>
+</html>

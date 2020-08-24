@@ -18,7 +18,7 @@ ResultSet resultSet = null;
 
 try
 {
-Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=abarna/", "abarna", "abarna");
+Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/?user=abarna/", "abarna", " ");
 Statement st=conn.createStatement();
 st.executeQuery("use bank_application");
 
